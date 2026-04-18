@@ -27,7 +27,7 @@ ROOT DIAGNOSIS:
   Emotional driver: [Fear of X / Grief / Values conflict / Systemic constraint / Identity fragmentation / Relational anchor]
   Readiness score at close: [X/10]
 
-CLIENT ARCHETYPE DETECTED: [Analyst / Achiever / Empath / Seeker / Strategist / Philosopher / Integrator / Builder]
+CLIENT ARCHETYPE DETECTED: [Thinker / Doer / Caregiver / Seeker / Strategist / Integrator]
 (Update if new dimensions emerged this session)
 
 WISDOM USED:
@@ -122,41 +122,6 @@ Based on the accountability check, decide:
 | Not completed + honest reason found | The reason IS the session topic |
 | Exceeded commitment + momentum present | Build on the momentum |
 | Completed + feels stuck on next step | Move to next phase in the framework |
-
----
-
-## SESSION ARC TRACKER
-
-Use this across multiple sessions to track the client's journey:
-
-```
-CLIENT JOURNEY MAP
-Client (anonymous reference):
-Started: [date]
-
-SESSION 1
-  Presenting challenge:
-  Root diagnosis:
-  First commitment:
-  Completed? Y / N / Partial
-
-SESSION 2
-  Accountability outcome:
-  Diagnosis update (if any):
-  New commitment:
-  Completed? Y / N / Partial
-
-SESSION 3
-  Accountability outcome:
-  Pattern observed across sessions:
-  Milestone reached? (Y/N — describe):
-  Micro-test deployed:
-
-SESSION 4+
-  Recurring pattern:
-  Block transformation observed:
-  Where the client is now vs. where they started:
-```
 
 ---
 

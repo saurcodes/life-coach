@@ -8,10 +8,10 @@ Always frame the exercise as data collection, not performance.
 ---
 
 ## TABLE OF CONTENTS
-1. [Clarity Exercises (5)](#clarity-exercises)
+1. [Clarity Exercises (6)](#clarity-exercises)
 2. [Capability Exercises (4)](#capability-exercises)
 3. [Courage Exercises (5)](#courage-exercises)
-4. [Identity Exercises (4)](#identity-exercises)
+4. [Identity Exercises (3)](#identity-exercises)
 5. [Grief & Transition Exercises (3)](#grief--transition-exercises)
 6. [Leadership Exercises (2)](#leadership-exercises)
 7. [Burnout & Reset Exercises (3)](#burnout--reset-exercises)
@@ -60,8 +60,8 @@ Always frame the exercise as data collection, not performance.
 
 ### C3 — The Energy Audit
 **Best for**: Career crossroads, "is this still right for me?", chronic low motivation
-**Time required**: 7 days of tracking, 20 minutes review
-**Archetype fit**: Analyst (loves the data), Achiever, Builder
+**Time required**: 7 days of tracking, 20 minutes review (3-day version available)
+**Archetype fit**: Thinker (loves the data), Doer, Strategist
 
 **Full script**:
 > "For the next 7 days, carry a small notebook or use your phone.
@@ -73,6 +73,10 @@ Always frame the exercise as data collection, not performance.
 > Which consistently give you -1?
 > The data will tell you something your mind has been rationalizing around."
 
+**3-day version** (if 7 days isn't feasible): Same exercise, 3 days only. Less pattern confidence
+but still directional. Tell the client: "3 days gives us a signal. 7 days gives us a pattern.
+Start with 3 — and if it's inconclusive, extend."
+
 **What to bring back**: The 3 highest-energy activities and the 3 most depleting. Pattern noticed.
 **Debrief question**: "How much of your current life is built around the -1 column?"
 
@@ -81,7 +85,7 @@ Always frame the exercise as data collection, not performance.
 ### C4 — The Two-Column Letter
 **Best for**: Values conflict, can't decide between staying and leaving (job, relationship, city)
 **Time required**: 45 minutes
-**Archetype fit**: Empath, Philosopher, Seeker
+**Archetype fit**: Caregiver, Thinker, Seeker
 
 **Full script**:
 > "You're going to write two letters — one page each.
@@ -100,7 +104,7 @@ Always frame the exercise as data collection, not performance.
 ### C5 — The Five Whys (Personal Edition)
 **Best for**: Surface-level presenting problem that keeps recurring — something beneath hasn't been named
 **Time required**: 15 minutes
-**Archetype fit**: Analyst, Philosopher, Strategist
+**Archetype fit**: Thinker, Strategist
 
 **Full script**:
 > "State the problem in one sentence. Write it down.
@@ -116,12 +120,32 @@ Always frame the exercise as data collection, not performance.
 
 ---
 
+### C6 — The Chanakya Council
+**Best for**: Complex decision where one perspective keeps dominating; stuck in one viewpoint despite good analysis
+**Time required**: 30 minutes
+**Archetype fit**: Strategist, Thinker, Doer (who needs to slow down and hear the other voices)
+
+**Full script**:
+> "Imagine a council of three advisors sitting across from you.
+> The first: A wise elder who has seen everything and is no longer afraid of anything.
+> The second: A bold entrepreneur who has failed magnificently and rebuilt.
+> The third: A cautious pragmatist who protects what matters most.
+> Each one has read your situation completely.
+> Write what each of them says to you — not what you think they'd say,
+> what they actually say if they were speaking without filter.
+> Now: which voice do you most need to listen to? Which have you been ignoring?"
+
+**What to bring back**: The voice you've been ignoring and why.
+**Debrief question**: "What would you do if you followed that voice — just for the next step?"
+
+---
+
 ## CAPABILITY EXERCISES
 
 ### K1 — The Capability Audit
 **Best for**: Imposter syndrome, undervaluing proven track record, "I'm not ready" paralysis
 **Time required**: 30–45 minutes
-**Archetype fit**: All archetypes; particularly powerful for Achievers who dismiss their history
+**Archetype fit**: All archetypes; particularly powerful for Doers who dismiss their history
 
 **Full script**:
 > "Write down 10 things you have accomplished that, at the time you started them,
@@ -139,7 +163,7 @@ Always frame the exercise as data collection, not performance.
 ### K2 — The Preparation Map
 **Best for**: Genuine skill gap that needs structured closing — not avoidance dressed as preparation
 **Time required**: 30 minutes
-**Archetype fit**: Analyst, Builder, Strategist
+**Archetype fit**: Thinker, Doer, Strategist
 
 **Full script**:
 > "Draw three columns: 'What I Need', 'What I Already Have', 'The Gap'.
@@ -155,30 +179,30 @@ Always frame the exercise as data collection, not performance.
 
 ---
 
-### K3 — The Borrowed Confidence Exercise
+### K3 — The Role Model Frame
 **Best for**: Capability doubt tied to self-image; "I'm not the kind of person who..."
-**Time required**: 20 minutes
-**Archetype fit**: Empath, Seeker, anyone with identity block underneath capability block
+**Time required**: 20 minutes setup; practice over one week
+**Archetype fit**: Caregiver, Seeker, anyone with identity block underneath a capability block
 
 **Full script**:
 > "Think of someone — real or historical — who has done what you want to do.
 > Someone you genuinely admire and whose approach resonates with you.
 > For one week, when you face a challenge in this domain, ask:
 > 'What would [name] do here?'
-> Not what they would do in general — specifically in this moment.
-> This is not pretending to be them. It's borrowing a framework of possibility
-> until you develop your own.
+> Not what they would do in general — specifically in this moment, with this obstacle.
+> This is not pretending to be them. It's using their example as a proof of possibility
+> until your own confidence catches up with your capability.
 > Notice: where does their approach differ from your instinct? What does that gap reveal?"
 
 **What to bring back**: One specific moment where you asked the question — and what happened.
-**Debrief question**: "What did they have that you were pretending you didn't?"
+**Debrief question**: "What did they have that you were telling yourself you didn't?"
 
 ---
 
 ### K4 — The Minimum Viable Attempt
 **Best for**: Waiting to be "ready" — needs to learn through doing, not through more preparation
 **Time required**: Define a 48–72 hour experiment
-**Archetype fit**: Builder, Achiever, anyone in preparation paralysis
+**Archetype fit**: Doer, anyone in preparation paralysis
 
 **Full script**:
 > "Identify the smallest possible version of the thing you're not feeling capable of.
@@ -199,7 +223,7 @@ Always frame the exercise as data collection, not performance.
 ### U1 — The Fear Inventory
 **Best for**: Vague fear blocking action — needs to be named and examined specifically
 **Time required**: 20–30 minutes
-**Archetype fit**: Philosopher, Empath, Analyst (frame as risk assessment for analysts)
+**Archetype fit**: Thinker, Caregiver (frame as risk assessment for Thinkers)
 
 **Full script**:
 > "Write at the top of a page: 'I am afraid that...'
@@ -218,9 +242,9 @@ Always frame the exercise as data collection, not performance.
 ---
 
 ### U2 — The Pre-Mortem
-**Best for**: Achievers and Strategists who catastrophize — fear of failure blocking action
+**Best for**: Doers and Strategists who catastrophize — fear of failure blocking action
 **Time required**: 30 minutes
-**Archetype fit**: Analyst, Achiever, Strategist
+**Archetype fit**: Thinker, Doer, Strategist
 
 **Full script**:
 > "Imagine it is 12 months from now. You took the action you're afraid of taking.
@@ -239,7 +263,7 @@ Always frame the exercise as data collection, not performance.
 ### U3 — The Commitment Declaration
 **Best for**: Chronic delay; readiness scores that never reach 8; someone who is ready but won't commit
 **Time required**: 5 minutes to write, 48 hours to honor
-**Archetype fit**: All archetypes — particularly Seeker (who over-explores), Builder (who over-pivots)
+**Archetype fit**: All archetypes — particularly Seeker (who over-explores), Doer (who over-pivots)
 
 **Full script**:
 > "Write one sentence that begins: 'By [specific date and time], I will have done [specific action].'
@@ -256,7 +280,7 @@ Always frame the exercise as data collection, not performance.
 ### U4 — The Conversation You're Avoiding
 **Best for**: Interpersonal avoidance; courage block rooted in a relationship
 **Time required**: Preparation 20 min; the conversation itself
-**Archetype fit**: Empath (will over-prepare), Achiever (will avoid or delay)
+**Archetype fit**: Caregiver (will over-prepare), Doer (will avoid or delay)
 
 **Full script**:
 > "Identify the one conversation you've been avoiding that would change something important.
@@ -276,7 +300,7 @@ Always frame the exercise as data collection, not performance.
 ### U5 — The 48-Hour Decision
 **Best for**: Decision paralysis; someone who has enough information but keeps seeking more
 **Time required**: 48 hours
-**Archetype fit**: Analyst (needs a forcing function), Philosopher (over-processes)
+**Archetype fit**: Thinker (needs a forcing function, tends to over-process)
 
 **Full script**:
 > "You have 48 hours to make this decision. Not forever — 48 hours.
@@ -301,7 +325,7 @@ Always frame the exercise as data collection, not performance.
 ### I1 — The Inherited Belief Audit
 **Best for**: Identity block rooted in family/cultural scripts; "people like me don't..."
 **Time required**: 45 minutes
-**Archetype fit**: Empath, Seeker, Integrator, anyone from strong cultural/family background
+**Archetype fit**: Caregiver, Seeker, Integrator, anyone from strong cultural/family background
 
 **Full script**:
 > "Write the names of the 3–5 people who most shaped your understanding of what was
@@ -322,7 +346,7 @@ Always frame the exercise as data collection, not performance.
 ### I2 — The Future Self Letter
 **Best for**: Identity gap between current self and the person required to achieve the goal
 **Time required**: 30–45 minutes
-**Archetype fit**: Seeker, Philosopher, Empath, anyone doing identity transition work
+**Archetype fit**: Seeker, Thinker, Caregiver, anyone doing identity transition work
 
 **Full script**:
 > "Imagine the version of you who has already achieved what you're working toward.
@@ -342,7 +366,7 @@ Always frame the exercise as data collection, not performance.
 ### I3 — The Role Inventory
 **Best for**: Identity fragmentation; Integrator type overwhelmed by competing roles
 **Time required**: 20 minutes
-**Archetype fit**: Integrator, Empath, anyone in major life transition
+**Archetype fit**: Integrator, Caregiver, anyone in major life transition
 
 **Full script**:
 > "List every role you currently play: professional title, family roles, social roles, internal roles
@@ -358,32 +382,12 @@ Always frame the exercise as data collection, not performance.
 
 ---
 
-### I4 — The Chanakya Council
-**Best for**: Complex decision requiring multiple perspectives; Strategist or Analyst who is stuck in one viewpoint
-**Time required**: 30 minutes
-**Archetype fit**: Strategist, Analyst, Philosopher, Achiever
-
-**Full script**:
-> "Imagine a council of three advisors sitting across from you.
-> The first: A wise elder who has seen everything and is no longer afraid of anything.
-> The second: A bold entrepreneur who has failed magnificently and rebuilt.
-> The third: A cautious pragmatist who protects what matters most.
-> Each one has read your situation completely.
-> Write what each of them says to you — not what you think they'd say,
-> what they actually say if they were speaking without filter.
-> Now: which voice do you most need to listen to? Which have you been ignoring?"
-
-**What to bring back**: The voice you've been ignoring and why.
-**Debrief question**: "What would you do if you followed that voice — just for the next step?"
-
----
-
 ## GRIEF & TRANSITION EXERCISES
 
 ### G1 — The Completion Ritual
 **Best for**: Inability to move forward because something hasn't been properly closed
 **Time required**: 45–60 minutes
-**Archetype fit**: Empath, Seeker, anyone in major transition or loss
+**Archetype fit**: Caregiver, Seeker, anyone in major transition or loss
 
 **Full script**:
 > "What has ended that you haven't yet said goodbye to?
@@ -406,7 +410,7 @@ Always frame the exercise as data collection, not performance.
 ### G2 — The Identity Bridge
 **Best for**: Between-identity paralysis — left the old, not yet in the new
 **Time required**: 30 minutes over 3 days
-**Archetype fit**: Seeker, Integrator, Philosopher, anyone in career/life pivot
+**Archetype fit**: Seeker, Integrator, Thinker, anyone in career/life pivot
 
 **Full script**:
 > "Day 1: Write who you were in the role or identity that has ended.
@@ -425,7 +429,7 @@ Always frame the exercise as data collection, not performance.
 ### G3 — The Kintsugi Mapping
 **Best for**: Difficulty finding meaning in loss or failure — needs to see breakage as formative
 **Time required**: 30 minutes
-**Archetype fit**: Achiever (who sees failure as defeat), Builder (who rebuilds without processing)
+**Archetype fit**: Doer (who sees failure as defeat or rebuilds without processing)
 
 **Full script**:
 > "Draw a simple outline of a vase or bowl on a blank page.
@@ -447,8 +451,8 @@ Always frame the exercise as data collection, not performance.
 
 ### L1 — The Team Mirror
 **Best for**: Leader whose team is underperforming; can't see their own contribution to the pattern
-**Time required**: 1 week of observation
-**Archetype fit**: Strategist, Achiever, Builder (in leadership roles)
+**Time required**: 1 week of observation (2-day focused version available)
+**Archetype fit**: Strategist, Doer (in leadership roles)
 
 **Full script**:
 > "For the next week, observe your team interactions without trying to fix anything.
@@ -458,6 +462,10 @@ Always frame the exercise as data collection, not performance.
 > Don't gather data about them. Gather data about you.
 > Write 5 observations. Bring them back."
 
+**2-day version**: Pick 2 days with significant team interaction. Same questions, compressed.
+Tell the client: "2 days gives you a snapshot. A week gives you a pattern.
+Start with 2 — and notice if the pattern holds."
+
 **What to bring back**: The one observation that makes you uncomfortable.
 **Debrief question**: "What would your team say if they were coaching you?"
 
@@ -466,7 +474,7 @@ Always frame the exercise as data collection, not performance.
 ### L2 — The Reverse Mentoring Session
 **Best for**: Leader who has become disconnected from their team's reality
 **Time required**: 2 structured conversations
-**Archetype fit**: Strategist, Achiever, any leader in seniority isolation
+**Archetype fit**: Strategist, Doer, any leader in seniority isolation
 
 **Full script**:
 > "Identify one person on your team — someone junior, someone whose reality is different from yours.
@@ -487,7 +495,7 @@ Always frame the exercise as data collection, not performance.
 ### B1 — The Subtraction Audit
 **Best for**: Overwhelm, too many commitments, energy constantly depleted
 **Time required**: 30 minutes
-**Archetype fit**: Achiever (says yes to everything), Empath (can't disappoint), Builder (overextends)
+**Archetype fit**: Doer (says yes to everything), Caregiver (can't disappoint), Integrator (overextends)
 
 **Full script**:
 > "List everything you are currently committed to — professional, personal, relational.
@@ -508,7 +516,7 @@ Always frame the exercise as data collection, not performance.
 ### B2 — The Non-Negotiable Recovery Protocol
 **Best for**: Someone running on empty who keeps postponing rest
 **Time required**: Design in session; implement over 2 weeks
-**Archetype fit**: All archetypes in burnout; especially Achievers and Builders
+**Archetype fit**: All archetypes in burnout; especially Doers who treat rest as failure
 
 **Full script**:
 > "Design your minimum viable recovery — not your ideal recovery, your minimum.

@@ -153,18 +153,14 @@ conflicts with their actual values.
 Which part, and why?"
 **Signal**: Persistent ambivalence despite clarity about the goal.
 
-### DRIVER D: SYSTEMIC / STRUCTURAL CONSTRAINT
-The limitation is real and external. See Type 4 above.
-Distinguish from perception-based constraint through specificity and verification.
-
-### DRIVER E: IDENTITY FRAGMENTATION
+### DRIVER D: IDENTITY FRAGMENTATION
 The client is between identities — they've left one (or are leaving it) but
 haven't yet built the next. This creates a particular kind of paralysis.
 **Signal**: "I used to know who I was" / major life transition underway
 **Intervention**: Transition-specific wisdom (Vedic Ashrama system, Kintsugi),
 identity bridge exercise
 
-### DRIVER F: RELATIONAL ANCHOR
+### DRIVER E: RELATIONAL ANCHOR
 The client's stuck state is maintained by a relationship — they are unconsciously
 calibrating their choices to keep someone else comfortable, or secure an attachment.
 **Signal**: Every time they move toward the goal, they mention someone else's reaction.
@@ -178,28 +174,29 @@ Assess where the client is in their readiness cycle.
 
 ### READINESS STAGES
 
-**Stage 1 — Pre-contemplation**: Not yet aware a change is needed or possible.
-Coaching focus: awareness-building, not action-planning.
-Don't prescribe solutions they're not ready to implement.
+*Note: Clients rarely enter coaching at Stage 1 (unaware a change is needed).
+Most arrive at Stage 2 or 3. If someone seems genuinely unaware they have a problem,
+pause and ask: "What brought you here today?" — they're usually more aware than they appear.*
 
-**Stage 2 — Contemplation**: Aware something needs to change, ambivalent about it.
+**Stage 1 — Contemplation**: Aware something needs to change, ambivalent about it.
 Coaching focus: exploring both sides of the ambivalence without rushing to resolution.
-"What would you gain? What would you lose?" — hold both.
+*"What would you gain? What would you lose?"* — hold both without pushing toward a conclusion.
 
-**Stage 3 — Preparation**: Has decided to change, is figuring out how.
+**Stage 2 — Preparation**: Has decided to change, is figuring out how.
 Coaching focus: concrete planning, first steps, support structures.
-This is the right stage for action items and exercises.
+This is the right stage for exercises and action items.
 
-**Stage 4 — Action**: Has begun making changes.
+**Stage 3 — Action**: Has begun making changes.
 Coaching focus: accountability, course correction, sustaining momentum.
-Don't re-open the "should I do this" question.
+Do not re-open the "should I do this" question — they've made the call.
 
-**Stage 5 — Maintenance**: Has made the change, working to sustain it.
-Coaching focus: relapse prevention, identity integration, celebrating progress.
+**Stage 4 — Maintenance**: Has made the change, working to sustain it.
+Coaching focus: relapse prevention, identity integration, celebrating the arc.
+→ Consider moving to `/maintenance` mode.
 
-**Misalignment risk**: Coaching for Stage 3 (here's your plan) when the client
-is at Stage 2 (still ambivalent) creates resistance. Match your intervention to
-their actual stage.
+**Misalignment risk**: Coaching for Stage 2 (here's your plan) when the client
+is at Stage 1 (still ambivalent) creates resistance and false commitment.
+Match your intervention to their actual stage — not the stage you want them to be at.
 
 ---
 

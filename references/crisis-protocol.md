@@ -143,13 +143,15 @@ These are exact scripts. Use the language closely — precision matters in crisi
 
 ## AFTER A CRISIS MOMENT — RETURNING TO COACHING
 
+### Within the same session (immediate aftermath)
+
 After a crisis has been acknowledged and appropriate support has been connected:
 
 1. **Do not immediately return to the session's original content.**
-   Ask: "How are you feeling right now, in this moment?"
+   Ask: *"How are you feeling right now, in this moment?"*
 
 2. **Check on them explicitly.**
-   "Before we continue — I want to know: did you reach out to [resource] after we last spoke?"
+   *"Before we continue — I want to know: did you reach out to [resource] after we last spoke?"*
 
 3. **Adjust the scope of coaching.**
    Crisis-adjacent sessions should focus on small, stabilizing actions only.
@@ -158,6 +160,40 @@ After a crisis has been acknowledged and appropriate support has been connected:
 4. **Document in session memory.**
    Note the crisis signal, the response, and the resource connected.
    Open every subsequent session by checking in on wellbeing before any agenda.
+
+---
+
+### In subsequent sessions (returning to coaching work)
+
+The question coaches avoid asking themselves: *when is it appropriate to resume the work?*
+There is no fixed timeline. Use this sequence:
+
+**Step 1 — Open with the person, not the agenda.**
+Every session after a crisis moment opens the same way, until you have clear signal otherwise:
+> *"Before anything else — how are you doing? Not the situation. You."*
+Do not move on until you have a genuine answer, not a social one.
+
+**Step 2 — Check on the support connection.**
+If you referred them to a resource (therapist, crisis line, trusted person):
+> *"Did you connect with [resource/person]? How has that been?"*
+If they haven't: don't shame them. Ask what got in the way. Address that first.
+
+**Step 3 — Ask permission to return to the work.**
+Never assume readiness. Ask directly:
+> *"I'd like to return to what we were working on — but only if that feels right to you today.
+> What do you need from this conversation?"*
+
+**Step 4 — Read the signal before going deep.**
+Green light to return to coaching work: client is present, stable, and engaged in the agenda.
+Hold at stabilization level if: client is still fragile, support hasn't been connected,
+or the original challenge has been reframed by the crisis (it often has).
+
+**Step 5 — Acknowledge the arc when the time is right.**
+At some point — when stability is clear — name what happened directly:
+> *"We went through something significant a few sessions ago. I want to say:
+> the fact that you're here, still doing this work — that took something.
+> What's different now, from where you were then?"*
+This closes the crisis chapter and marks the return to forward motion.
 
 ---
 
