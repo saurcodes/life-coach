@@ -1,58 +1,16 @@
 # Life Coach — Claude Code Plugin
 
-A life coaching plugin for Claude Code that bridges ancient wisdom traditions — Vedas, Upanishads, Bhagavad Gita, Tao Te Ching, Buddhism, Chanakya's Arthashastra — with modern psychology and structured coaching methodology.
+A structured life coaching plugin that bridges ancient wisdom — Bhagavad Gita, Upanishads, Tao Te Ching, Buddhism, Chanakya's Arthashastra — with modern psychology. Built for people navigating real challenges: career crossroads, identity confusion, burnout, purpose loss, relationship stress, or simply feeling stuck.
 
 ---
 
-## What This Plugin Does
+## What It's Like
 
-Once installed, this plugin transforms Claude into a structured life coach capable of:
+The coaching adapts to how you think. It asks one question at a time, listens to what you actually say, and offers back an observation, a named pattern, or a teaching from ancient tradition — not because it's scheduled, but because what you just said called for it.
 
-- Running multi-phase coaching sessions using a proven 7-phase framework
-- Detecting and adapting to 8 distinct client archetypes (Analyst, Achiever, Empath, Seeker, Strategist, Philosopher, Integrator, Builder)
-- Diagnosing root blocks across 5 dimensions: Clarity, Capability, Courage, Circumstance, and Identity
-- Weaving ancient wisdom seeds naturally into conversation — dropped when the moment calls for it, never on a schedule
-- Delivering 40+ full wisdom teachings matched to the client's specific block and archetype
-- Assigning 25 targeted exercises across 7 coaching domains
-- Tracking progress and continuity across sessions via session snapshots
-- Firing automatic hooks for crisis detection, resistance, insight moments, and more
+Sessions follow a natural arc: surface the real problem (which is rarely the presenting problem), diagnose the root block, deliver one teaching that fits the moment, assign one exercise with a real deadline, and close with a specific commitment you'll be held to next time.
 
----
-
-## Plugin Structure
-
-```
-life-coach/
-├── .claude-plugin/
-│   ├── plugin.json                   # Plugin manifest
-│   └── marketplace.json              # Marketplace catalog
-├── SKILL.md                          # Orchestrator — routing tables & session flow
-├── commands/                         # External slash commands (/life-coach:*)
-│   ├── start.md, close.md, recap.md, snapshot.md
-│   ├── diagnose.md, reframe.md, archetype.md
-│   ├── wisdom.md, exercise.md, challenge.md
-│   ├── checkin.md, progress.md, pattern.md
-│   ├── deepwork.md, maintenance.md
-├── command-handlers/                 # Internal command logic
-│   ├── session-management.md         # /start /recap /close /snapshot
-│   ├── diagnostic.md                 # /diagnose /reframe /archetype
-│   ├── exercise-wisdom.md            # /exercise /wisdom /challenge
-│   └── progress-accountability.md   # /checkin /progress /pattern /deepwork /maintenance
-├── references/                       # Load-on-demand reference files
-│   ├── client-archetypes.md
-│   ├── crisis-protocol.md
-│   ├── diagnostic-deep.md
-│   ├── exercise-library.md
-│   ├── session-memory-template.md
-│   └── wisdom-library.md
-├── hooks/                            # Auto-firing condition hooks
-│   ├── 01-crisis-scan.md
-│   └── 02–08 ...
-└── scripts/
-    └── log_session.py                # Session snapshot persistence
-```
-
-**Design principle**: `SKILL.md` is the conductor. Reference files load on demand — never all at once. External commands give direct control. Internal hooks fire automatically when conditions are detected.
+It also watches for things you don't name: when you push back on something that landed, when you've returned to the same point three times, when the emotion in a response shifts unexpectedly. These conditions trigger automatic responses — not interruptions, but redirections that keep the session honest.
 
 ---
 
@@ -60,25 +18,13 @@ life-coach/
 
 ### Claude Code (CLI & Desktop)
 
-**Step 1** — Add this repo as a marketplace (one-time):
-
 ```
 /plugin marketplace add saurcodes/life-coach
-```
-
-**Step 2** — Install the plugin:
-
-```
 /plugin install life-coach@life-coach
-```
-
-**Step 3** — Activate:
-
-```
 /reload-plugins
 ```
 
-All commands are now available as `/life-coach:start`, `/life-coach:wisdom`, etc.
+Commands are now available as `/life-coach:start`, `/life-coach:wisdom`, etc.
 
 To uninstall: `/plugin uninstall life-coach@life-coach`
 
@@ -86,19 +32,15 @@ To uninstall: `/plugin uninstall life-coach@life-coach`
 
 ### Claude.ai
 
-Claude.ai uses a ZIP upload for skills:
-
 1. Download this repo as a ZIP (GitHub → Code → Download ZIP)
 2. In Claude.ai, go to **Customize → Skills → + → Upload a skill**
 3. Upload the ZIP
 
-The skill will appear in your Skills list and can be toggled on/off. Custom skills are private to your account by default. Team/Enterprise plans can share skills organization-wide via organization settings.
+The skill activates automatically when the conversation calls for it.
 
 ---
 
-### Test Without Installing (development)
-
-Load the plugin for a single session without installing it:
+### Development (without installing)
 
 ```bash
 claude --plugin-dir /path/to/life-coach-skills
@@ -106,52 +48,31 @@ claude --plugin-dir /path/to/life-coach-skills
 
 ---
 
-### Session Logging (Optional)
-
-The `/life-coach:close` command calls `scripts/log_session.py` to persist session snapshots. Requires Python 3:
-
-```bash
-chmod +x skills/life-coach/scripts/log_session.py
-```
-
-Session logs are saved to `~/.claude/life-coach/sessions/<client_id>/`.
-
----
-
-## Usage
-
-### Automatic Activation
-
-The skill triggers automatically when you express being stuck, navigating a life challenge, or needing structured guidance:
-
-- *"I'm stuck and don't know what to do"*
-- *"I need help thinking through a career decision"*
-- *"Something feels off but I can't name it"*
-- *"I'm burned out and don't know how to reset"*
-
-### Commands
-
-All commands are namespaced under `life-coach:`. They also work as plain text intent (e.g., "let's close the session" triggers close).
+## Commands
 
 | Command | What it does |
 |---|---|
-| `/life-coach:start` | Begin a new session with continuity check |
+| `/life-coach:start` | Begin a session — checks for prior sessions first |
 | `/life-coach:recap` | Structured summary of where the session stands |
 | `/life-coach:close` | Close with insights, action items, and a challenge |
-| `/life-coach:snapshot` | Save a session record without closing |
-| `/life-coach:diagnose` | Full multi-axis root cause assessment |
-| `/life-coach:reframe` | Fresh perspective — pattern interrupt |
-| `/life-coach:archetype` | See how Claude is reading and adapting to you |
+| `/life-coach:snapshot` | Save a record without closing |
+| `/life-coach:diagnose` | Full root cause assessment |
+| `/life-coach:reframe` | Fresh angle — pattern interrupt |
+| `/life-coach:archetype` | See how the coach is reading and adapting to you |
 | `/life-coach:wisdom [theme]` | Ancient teaching matched to your situation |
-| `/life-coach:exercise [topic]` | Targeted exercise with full instructions and deadline |
+| `/life-coach:exercise [topic]` | Targeted exercise with full instructions |
 | `/life-coach:challenge` | 48–72 hour micro-challenge |
 | `/life-coach:checkin` | Accountability review from your last session |
 | `/life-coach:progress` | Map the full arc of your coaching journey |
 | `/life-coach:pattern` | Name a recurring pattern explicitly |
-| `/life-coach:deepwork` | Switch to Deep Work Mode (higher intensity) |
-| `/life-coach:maintenance` | Switch to Maintenance Mode (integration check-in) |
+| `/life-coach:deepwork` | Higher intensity mode — compressed phases, harder push |
+| `/life-coach:maintenance` | Integration mode — periodic check-in, no new diagnosis |
 
-### Example Session
+Commands also work as plain text intent: *"let's close the session"* triggers `/close`.
+
+---
+
+## Example Session
 
 ```
 You:    I keep trying to change careers but never actually do it.
@@ -179,88 +100,70 @@ Coach:  That's a Courage block with a specific shape: the fear isn't
         try and it doesn't work, but no one important finds out?
 ```
 
-*Notice the Gita reference in the second response — a wisdom seed dropped when it fit, not on schedule.*
-
-### Operating Modes
-
-| Mode | When | Behavior |
-|---|---|---|
-| **Discovery** (default) | New client or new topic | Slower, exploratory, readiness threshold 6/10 |
-| **Deep Work** (`/life-coach:deepwork`) | Clear challenge, ready to go hard | Compressed phases, full diagnosis, threshold 8/10 |
-| **Maintenance** (`/life-coach:maintenance`) | Integration phase or periodic check-in | Arc review, no new diagnosis, shorter sessions |
-
-### Automatic Hooks
-
-These fire without any command — Claude detects the condition and responds:
-
-| Hook | Triggers when... |
-|---|---|
-| 🔴 Crisis Scan | Any language suggesting suicidal ideation, self-harm, or acute crisis |
-| 🟠 Resistance Detector | Client pushes back on the same point 2+ times |
-| 🟠 Emotion Surge | Unexpected emotional shift mid-session |
-| ✨ Insight Flash | Client has a sudden moment of self-recognition |
-| 🟡 Loop Detector | Same concern returns 3+ times without resolution |
-| 🟡 Advice Intercept | "Just tell me what to do" before the root block is diagnosed |
-| 🟡 Commitment Inflation | Commitment is too vague, too large, or unrealistic |
-| 🟡 Session Drift | 5+ exchanges with no movement toward insight or action |
-
 ---
 
-## Wisdom in Conversation
+## How Wisdom Works
 
 Ancient teachings appear in two ways:
 
-**Wisdom seeds** — brief, organic. A single sentence or image from tradition dropped mid-conversation when what the client just said genuinely calls for it. Not explained, not defended. If it resonates, the thread opens. If it doesn't, it's released. Used only when the moment earns it, never on a schedule.
+**Wisdom seeds** — a single sentence or image dropped mid-conversation when what you just said genuinely calls for it. Not explained, not defended. If it opens something, the thread follows. If it doesn't land, it's released without ceremony.
 
-**Full teachings** (Phase 4) — one per session, matched to the diagnosed block and archetype. Wrapped in story, connected directly to the client's situation, followed by *"How does that land?"*
+**Full teachings** — one per session, matched to the diagnosed block. Wrapped in story, connected directly to your situation. Always followed by *"How does that land?"* — because a teaching that doesn't resonate gets released, never defended.
 
-Traditions drawn from: Bhagavad Gita, Upanishads, Tao Te Ching, Buddhism (Theravada and Zen), Chanakya's Arthashastra, Vedic mythology, Cherokee parable, Jungian psychology, Japanese philosophy (Ikigai, Kintsugi).
+Traditions drawn from: Bhagavad Gita, Upanishads, Tao Te Ching, Buddhism (Theravada and Zen), Chanakya's Arthashastra, Vedic mythology, Japanese philosophy (Ikigai, Kintsugi).
 
 ---
 
-## Session Logging
+## Session Continuity
 
-At session close, a snapshot enables continuity in future sessions:
+At session close, a snapshot is saved — core challenge, root diagnosis, archetype, commitments made, and the exact accountability question to open the next session with.
 
 ```bash
-# Interactive mode
-python3 scripts/log_session.py --interactive
-
-# JSON mode
-python3 scripts/log_session.py --client alice --session 3 --data '{
-  "core_challenge": "Career crossroads",
-  "block_type": "Courage",
-  "emotional_driver": "Fear of public failure",
-  "readiness_score": "8",
-  "archetype": "Achiever",
-  "next_session_question": "You committed to the conversation with your manager by Friday. What happened?"
-}'
+# Logs automatically on /close, or run manually:
+python3 skills/life-coach/scripts/log_session.py --interactive
 ```
 
-Snapshots are stored in `sessions/<client_id>/session_<n>_<date>.md` and loaded automatically when a returning client starts a new session.
+Snapshots are stored in `~/.claude/life-coach/sessions/<client_id>/` and loaded when a returning session starts.
+
+---
+
+## Plugin Structure
+
+```
+life-coach/
+├── .claude-plugin/
+│   ├── plugin.json              # Plugin manifest
+│   └── marketplace.json         # Marketplace catalog
+├── SKILL.md                     # Root copy for Claude.ai ZIP upload
+├── commands/                    # External slash commands (/life-coach:*)
+├── skills/life-coach/           # Plugin skill (Claude Code)
+│   ├── SKILL.md                 # Orchestrator — session flow & routing
+│   ├── command-handlers/        # Internal logic per command group
+│   ├── references/              # Load-on-demand: archetypes, wisdom, exercises...
+│   ├── hooks/                   # Auto-firing condition hooks
+│   └── scripts/                 # log_session.py
+```
+
+`SKILL.md` is the conductor. Reference files load only when the moment requires them — never all at once. Commands give direct control. Hooks fire automatically on detected conditions.
 
 ---
 
 ## Contributing
 
-Contributions welcome — new exercises, wisdom teachings, archetype profiles, hook patterns, and language improvements all make the plugin more effective.
+Contributions welcome. The most valuable additions are exercises and wisdom teachings grounded in real situations.
 
-### What to Contribute
+**Adding a wisdom teaching** — add to `skills/life-coach/references/wisdom-library.md` under the appropriate tradition section. Required fields:
+- `Teaching` — the original story or concept
+- `Modern translation` — what it means for someone alive today
+- `The angle` — one sentence: what specific human truth this illuminates
+- `Best when` — the situations where it fits, loosely across block types
+- Must be grounded in a real tradition with a citable source. No invented parables.
 
-- **New exercises**: Add to `references/exercise-library.md` — include name, best-for, time required, archetype fit, full script, and debrief question
-- **New wisdom teachings**: Add to `references/wisdom-library.md` under the appropriate block-type section — include teaching, modern translation, deploy-as script, and follow-up question
-- **New archetypes**: Add to `references/client-archetypes.md` with detection signals, coaching adaptations, wisdom style, exercise style, and pace
-- **Hook improvements**: Add detection patterns, edge cases, or response scripts to the relevant `hooks/` file
-- **Bug fixes**: Incorrect archetype mappings, missing edge cases, broken scripts
+**Adding an exercise** — add to `skills/life-coach/references/exercise-library.md`. Required fields: name, best-for, time required, archetype fit, full script, what to bring back, debrief question. No summaries — the full script is what makes it usable.
 
-### Contribution Guidelines
+**Changing session flow** — edit `skills/life-coach/SKILL.md`. The Q+O rhythm, phase sequence, hook routing, and mode behaviors are all there.
 
-1. **Follow the existing format** — each section has a consistent structure. New content must match it.
-2. **One exercise = full script** — never add an exercise summary. Half-written instructions don't get used.
-3. **One teaching = full deployment script** — include the `Deploy as:` language and the `Follow-up:` question.
-4. **Test your additions** — use the plugin in a real session with your new content before submitting.
-5. **No invented traditions** — all wisdom teachings must be grounded in real philosophical or contemplative traditions with a cited source.
-6. **Crisis protocol is not a contribution area** — changes to `references/crisis-protocol.md` require careful review. Open an issue first.
+**Crisis protocol** — do not edit `skills/life-coach/references/crisis-protocol.md` without opening an issue first.
 
 ---
 
@@ -269,9 +172,7 @@ Contributions welcome — new exercises, wisdom teachings, archetype profiles, h
 > **The client already has the answer.**
 > The coach's job is to ask the question that makes them realize they've known it all along.
 
-Every command, every hook, every phase, every teaching exists only to serve that moment of recognition.
-
-The ancient wisdom traditions here — Vedic, Buddhist, Taoist, Jungian — are not decorative. They represent thousands of years of accumulated insight into how humans get stuck and how they get unstuck. This plugin treats them with that respect: grounding every teaching in the client's specific situation, never quoting for its own sake.
+The ancient traditions here — Vedic, Buddhist, Taoist, Chanakya — are not decorative. They represent accumulated insight into how humans get stuck and how they get unstuck. Every teaching is grounded in the client's specific situation, never quoted for its own sake.
 
 ---
 
