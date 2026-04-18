@@ -5,7 +5,7 @@
   "author": {
     "name": "Saurabh Kumar"
   },
-  "skills": ["./"],
+  "skills": ["./skills/"],
   "commands": ["./commands/"],
   "keywords": [
     "life-coach",
