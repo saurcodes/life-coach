@@ -6,6 +6,7 @@
     "name": "Saurabh Kumar"
   },
   "skills": ["./"],
+  "commands": ["./commands/"],
   "keywords": [
     "life-coach",
     "coaching",
