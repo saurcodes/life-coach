@@ -2,4 +2,4 @@
 description: "Assign a targeted exercise with full script and deadline, matched to your diagnosis. Optionally pass a topic (e.g. /life-coach:exercise fear)."
 ---
 
-Invoke the `life-coach:life-coach` skill using the Skill tool, then execute the `/exercise $ARGUMENTS` command flow from `command-handlers/exercise-wisdom.md`.
+Read `${CLAUDE_PLUGIN_ROOT}/SKILL.md` for the full session orchestration context, then read `${CLAUDE_PLUGIN_ROOT}/command-handlers/exercise-wisdom.md` and execute the `/exercise $ARGUMENTS` command flow defined there.

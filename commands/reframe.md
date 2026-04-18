@@ -2,4 +2,4 @@
 description: "Fresh perspective on your situation. Pattern interrupt that challenges the frame you've been using and offers a new angle."
 ---
 
-Invoke the `life-coach:life-coach` skill using the Skill tool, then execute the `/reframe` command flow from `command-handlers/diagnostic.md`.
+Read `${CLAUDE_PLUGIN_ROOT}/SKILL.md` for the full session orchestration context, then read `${CLAUDE_PLUGIN_ROOT}/command-handlers/diagnostic.md` and execute the `/reframe` command flow defined there.
