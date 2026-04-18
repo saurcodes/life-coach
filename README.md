@@ -65,13 +65,9 @@ life-coach-skills/
 
 ## Installation
 
-### Prerequisites
+### Claude Code (CLI & Desktop)
 
-- [Claude Code](https://claude.ai/code) installed (CLI, Desktop app, or IDE extension)
-
-### Claude Code CLI
-
-**Step 1** — Add the marketplace (one-time):
+**Step 1** — Add this repo as a marketplace (one-time):
 
 ```
 /plugin marketplace add saurcodes/life-coach
@@ -83,7 +79,7 @@ life-coach-skills/
 /plugin install life-coach@life-coach
 ```
 
-**Step 3** — Reload plugins:
+**Step 3** — Activate:
 
 ```
 /reload-plugins
@@ -95,13 +91,16 @@ To uninstall: `/plugin uninstall life-coach@life-coach`
 
 ---
 
-### Claude Code Desktop App
+### Claude.ai
 
-1. Open **Settings** → **Plugins** → **Discover**
-2. Go to the **Marketplaces** tab → **Add marketplace**
-3. Enter: `saurcodes/life-coach`
-4. Go to **Discover**, find **life-coach**, and click **Install**
-5. Run `/reload-plugins` to activate
+Claude.ai uses a ZIP upload for skills:
+
+1. Download or clone this repo
+2. Zip the `skills/life-coach/` folder
+3. In Claude.ai, go to **Customize → Skills → + → Upload a skill**
+4. Upload the ZIP
+
+The skill will appear in your Skills list and can be toggled on/off. Custom skills are private to your account by default. Team/Enterprise plans can share skills organization-wide via organization settings.
 
 ---
 
@@ -117,11 +116,10 @@ claude --plugin-dir /path/to/life-coach-skills
 
 ### Session Logging (Optional)
 
-The `/life-coach:close` command calls `scripts/log_session.py` to persist session snapshots. Enable it:
+The `/life-coach:close` command calls `scripts/log_session.py` to persist session snapshots. Requires Python 3:
 
 ```bash
-chmod +x /path/to/life-coach-skills/skills/life-coach/scripts/log_session.py
-python3 --version  # requires Python 3
+chmod +x skills/life-coach/scripts/log_session.py
 ```
 
 Session logs are saved to `~/.claude/life-coach/sessions/<client_id>/`.
