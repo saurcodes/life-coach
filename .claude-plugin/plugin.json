@@ -1,10 +1,11 @@
 {
   "name": "life-coach",
   "description": "A world-renowned life coach bridging ancient wisdom (Vedas, Upanishads, Tao Te Ching, Buddhism, Chanakya) with modern psychology. Supports structured coaching sessions, deep diagnosis, wisdom teachings, exercises, and accountability.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Saurabh Kumar"
   },
+  "skills": ["./"],
   "keywords": [
     "life-coach",
     "coaching",

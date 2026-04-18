@@ -22,41 +22,34 @@ Once installed, this plugin transforms Claude into a structured life coach capab
 ## Plugin Structure
 
 ```
-life-coach-skills/
+life-coach/
 ├── .claude-plugin/
-│   └── plugin.json                   # Plugin manifest (name, version, description)
+│   ├── plugin.json                   # Plugin manifest
+│   └── marketplace.json              # Marketplace catalog
+├── SKILL.md                          # Orchestrator — routing tables & session flow
 ├── commands/                         # External slash commands (/life-coach:*)
 │   ├── start.md, close.md, recap.md, snapshot.md
 │   ├── diagnose.md, reframe.md, archetype.md
 │   ├── wisdom.md, exercise.md, challenge.md
 │   ├── checkin.md, progress.md, pattern.md
 │   ├── deepwork.md, maintenance.md
-└── skills/
-    └── life-coach/                   # Main skill (life-coach:life-coach)
-        ├── SKILL.md                  # Orchestrator — routing tables & session flow
-        ├── command-handlers/         # Internal command logic
-        │   ├── session-management.md # /start /recap /close /snapshot
-        │   ├── diagnostic.md         # /diagnose /reframe /archetype
-        │   ├── exercise-wisdom.md    # /exercise /wisdom /challenge
-        │   └── progress-accountability.md  # /checkin /progress /pattern /deepwork /maintenance
-        ├── references/               # Load-on-demand reference files
-        │   ├── client-archetypes.md
-        │   ├── crisis-protocol.md
-        │   ├── diagnostic-deep.md
-        │   ├── exercise-library.md
-        │   ├── session-memory-template.md
-        │   └── wisdom-library.md
-        ├── hooks/                    # Auto-firing condition hooks
-        │   ├── 01-crisis-scan.md
-        │   ├── 02-resistance-detector.md
-        │   ├── 03-emotion-surge.md
-        │   ├── 04-insight-flash.md
-        │   ├── 05-loop-detector.md
-        │   ├── 06-advice-seeking.md
-        │   ├── 07-commitment-inflation.md
-        │   └── 08-session-drift.md
-        └── scripts/
-            └── log_session.py        # Session snapshot persistence
+├── command-handlers/                 # Internal command logic
+│   ├── session-management.md         # /start /recap /close /snapshot
+│   ├── diagnostic.md                 # /diagnose /reframe /archetype
+│   ├── exercise-wisdom.md            # /exercise /wisdom /challenge
+│   └── progress-accountability.md   # /checkin /progress /pattern /deepwork /maintenance
+├── references/                       # Load-on-demand reference files
+│   ├── client-archetypes.md
+│   ├── crisis-protocol.md
+│   ├── diagnostic-deep.md
+│   ├── exercise-library.md
+│   ├── session-memory-template.md
+│   └── wisdom-library.md
+├── hooks/                            # Auto-firing condition hooks
+│   ├── 01-crisis-scan.md
+│   └── 02–08 ...
+└── scripts/
+    └── log_session.py                # Session snapshot persistence
 ```
 
 **Design principle**: `SKILL.md` is the conductor. Reference files load on demand — never all at once. External commands give direct control. Internal hooks fire automatically when conditions are detected.
@@ -95,10 +88,9 @@ To uninstall: `/plugin uninstall life-coach@life-coach`
 
 Claude.ai uses a ZIP upload for skills:
 
-1. Download or clone this repo
-2. Zip the `skills/life-coach/` folder
-3. In Claude.ai, go to **Customize → Skills → + → Upload a skill**
-4. Upload the ZIP
+1. Download this repo as a ZIP (GitHub → Code → Download ZIP)
+2. In Claude.ai, go to **Customize → Skills → + → Upload a skill**
+3. Upload the ZIP
 
 The skill will appear in your Skills list and can be toggled on/off. Custom skills are private to your account by default. Team/Enterprise plans can share skills organization-wide via organization settings.
 

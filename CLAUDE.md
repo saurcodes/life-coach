@@ -22,10 +22,10 @@ Two types of content coexist:
 
 ## Key Files to Understand Before Editing
 
-- `skills/life-coach/SKILL.md` — the orchestrator. Contains the 7-phase session framework, Q+O rhythm, hook routing table, and mode definitions. Most behavioral changes happen here.
-- `skills/life-coach/references/wisdom-library.md` — 40+ teachings organized by block type. Each entry has: teaching, modern translation, deploy-as script, follow-up question. All four fields are required.
-- `skills/life-coach/references/exercise-library.md` — 25 exercises. Each entry requires: name, best-for, time, archetype fit, full script, debrief question. Never add a summary — the full script is what makes it usable.
-- `skills/life-coach/command-handlers/` — internal logic loaded by the orchestrator when a command fires. Not the same as `commands/` (external).
+- `SKILL.md` — the orchestrator. Contains the 7-phase session framework, Q+O rhythm, hook routing table, and mode definitions. Most behavioral changes happen here.
+- `references/wisdom-library.md` — 40+ teachings organized by block type. Each entry has: teaching, modern translation, deploy-as script, follow-up question. All four fields are required.
+- `references/exercise-library.md` — 25 exercises. Each entry requires: name, best-for, time, archetype fit, full script, debrief question. Never add a summary — the full script is what makes it usable.
+- `command-handlers/` — internal logic loaded by the orchestrator when a command fires. Not the same as `commands/` (external).
 
 ## Editing Guidelines
 
@@ -35,9 +35,9 @@ Two types of content coexist:
 
 **Adding an external command**: Create `commands/<name>.md` with frontmatter `description` and a one-line instruction to invoke `life-coach:life-coach` and execute the relevant command handler.
 
-**Changing session flow**: Edit `skills/life-coach/SKILL.md`. The Q+O rhythm, phase sequence, hook routing table, and mode behaviors are all there.
+**Changing session flow**: Edit `SKILL.md`. The Q+O rhythm, phase sequence, hook routing table, and mode behaviors are all there.
 
-**Changing a command's behavior**: Edit the relevant file in `skills/life-coach/command-handlers/`, not `commands/`.
+**Changing a command's behavior**: Edit the relevant file in `command-handlers/`, not `commands/`.
 
 ## Session Logging Script
 
@@ -52,6 +52,6 @@ Saves snapshots to `~/.claude/life-coach/sessions/<client_id>/`.
 
 ## What Not to Change
 
-`skills/life-coach/references/crisis-protocol.md` — do not edit without careful review. Open an issue first.
+`references/crisis-protocol.md` — do not edit without careful review. Open an issue first.
 
-The `description` field in `skills/life-coach/SKILL.md` frontmatter controls when Claude auto-triggers the skill. Changes here affect activation behavior across all conversations.
+The `description` field in `SKILL.md` frontmatter controls when Claude auto-triggers the skill. Changes here affect activation behavior across all conversations.
