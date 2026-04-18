@@ -1,0 +1,24 @@
+{
+  "name": "life-coach",
+  "owner": {
+    "name": "Saurabh Kumar"
+  },
+  "metadata": {
+    "description": "Life coaching plugin bridging ancient wisdom with modern psychology"
+  },
+  "plugins": [
+    {
+      "name": "life-coach",
+      "source": "./",
+      "description": "A world-renowned life coach bridging Vedas, Upanishads, Bhagavad Gita, Tao Te Ching, Buddhism, and Chanakya with modern psychology. Structured 7-phase sessions, 8 archetypes, 5 block types, 40+ wisdom teachings, 25 exercises.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Saurabh Kumar"
+      },
+      "homepage": "https://github.com/saurcodes/life-coach",
+      "repository": "https://github.com/saurcodes/life-coach",
+      "license": "MIT",
+      "keywords": ["life-coach", "coaching", "wisdom", "psychology", "mindfulness"]
+    }
+  ]
+}

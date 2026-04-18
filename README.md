@@ -67,27 +67,53 @@ life-coach-skills/
 
 ### Prerequisites
 
-- [Claude Code](https://claude.ai/code) CLI installed and authenticated
+- [Claude Code](https://claude.ai/code) installed (CLI, Desktop app, or IDE extension)
 
-### Test Locally (no install required)
+### Claude Code CLI
+
+**Step 1** — Add the marketplace (one-time):
+
+```
+/plugin marketplace add saurcodes/life-coach
+```
+
+**Step 2** — Install the plugin:
+
+```
+/plugin install life-coach@life-coach
+```
+
+**Step 3** — Reload plugins:
+
+```
+/reload-plugins
+```
+
+All commands are now available as `/life-coach:start`, `/life-coach:wisdom`, etc.
+
+To uninstall: `/plugin uninstall life-coach@life-coach`
+
+---
+
+### Claude Code Desktop App
+
+1. Open **Settings** → **Plugins** → **Discover**
+2. Go to the **Marketplaces** tab → **Add marketplace**
+3. Enter: `saurcodes/life-coach`
+4. Go to **Discover**, find **life-coach**, and click **Install**
+5. Run `/reload-plugins` to activate
+
+---
+
+### Test Without Installing (development)
+
+Load the plugin for a single session without installing it:
 
 ```bash
 claude --plugin-dir /path/to/life-coach-skills
 ```
 
-All commands become available immediately as `/life-coach:start`, `/life-coach:wisdom`, etc.
-
-### Install Permanently
-
-Once the plugin is in a git repository, add it as a local marketplace or install directly:
-
-```bash
-# Option 1: load on every session via shell alias
-echo 'alias claude="claude --plugin-dir /path/to/life-coach-skills"' >> ~/.zshrc
-
-# Option 2: add to a project's .claude/settings.json
-# "pluginDirs": ["/path/to/life-coach-skills"]
-```
+---
 
 ### Session Logging (Optional)
 
